@@ -1,0 +1,135 @@
+/*
+Theme Name: Faunadian
+Theme URI: noahmiller.art
+Author: Noah Miller
+Author URI: noahmiller.art@gmail.com
+Description: The Wikipage from Maple & Siam Universe
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(35, 126, 245);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p, table, ol {
+    font-size: 14px;
+}
+
+h1, h2, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+}
+
+.txt10 {
+    font-size: 10px;
+}
+
+.txt12 {
+    font-size: 12px;
+}
+
+/* Wordpress */
+.wp-element-caption {
+    font-size: 10px;
+    color: #777;
+    padding: 5%;
+}
+
+.wp-post-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-block-separator {
+    opacity: 1;
+    height: 0.1px;
+    border: none !important;
+    background-color: rgb(233, 233, 233);
+    margin-top: 2px;
+}
+
+.wp-block-verse {
+    color: #222222;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* Infobox */
+.infobox {
+    font-size: 12px;
+}
+
+.infobox img {
+    border-style: solid;
+    border-color: #222222;
+    border-width: 1px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+}
+
+.pagination a:hover {
+    background-color: #f8f8f8;
+}
+
+.pagination .current {
+    background-color: #f3fbfc;
+    color: #222222;
+}
+
+/* Cards */
+.card p {
+    font-size: 12px;
+}
+
+/* Containers */
+.container-md {
+    flex: 1;
+}
+
+/* Footer */
+#footer {
+    flex-shrink: 0;
+}
+
+#footer p {
+    font-size: 10px;
+}
